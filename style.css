@@ -1,35 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap');
 
-@keyframes navbar-nav {
-    from{
-        transform: translateY(-100px);
-    }
-    to{
-        transform: translate(0px);
-    }
-}
-@keyframes hero-title {
-    from{
-        transform: translateY(300px);
-    }
-    to{
-        transform: translate(0px);
-    }
-}
-@keyframes read-more {
-    from{
-        background-color: #FFF;
-    }
-    to{
-        background-color: #FFD050;
-    }
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter';
+}
+body{
+    background-color: #fff8e9;
+
 }
 .container{
     max-width: 1440px;
@@ -56,15 +36,27 @@ nav .container{
     align-items: center;
     gap: 50px;
 }
-nav button{
-    padding: 15px 40px;
+ .login{
+    padding: 5px 10px;
     font-size: 18px;
+    border-radius: 8px;
     font-weight: 700;
-    background-color: #FFF;
+    background-color: #FFD050;
     transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
     cursor: pointer;
 }
-nav button:hover{
+.login h2{
+    font-size: 16px;
+}
+
+.user i{
+    font-size: 24px;
+}
+.login:hover{
     background-color: #FFD050;
 }
 .logo h1{
@@ -157,7 +149,9 @@ ul{
 }
 
 /* Styling section 1 */
-
+.section1{
+    background-color: #fff8e9;
+}
 .titles{
     display: flex;
     justify-content: space-between;
@@ -167,7 +161,7 @@ ul{
     margin-top: 100px;
 }
 .right{
-    margin-right: 310px;
+    margin-right: 220px;
     margin-bottom: 30px;
 }
 .left{
@@ -257,6 +251,9 @@ ul{
 .card:hover{
     background-color: #FBF6EA;
 }
+.section2{
+    background-color: #fff8e9;
+}
 .section2-title{
     font-size: 36px;
     font-weight: 700;
@@ -301,6 +298,9 @@ ul{
 
 .icon, .icon2{
     width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 48px;
     border: solid black 1px;
     background-color: #fbf6ea;
@@ -313,8 +313,8 @@ ul{
     background-color: white;
     border-radius: 5px;
 }
-.icon img{
-    width: 100%;
+.icon i{
+    font-size: 30px;
 }
 .icon2 img{
     width: 60%;
@@ -325,10 +325,13 @@ ul{
 /* Styling section 3 */
 
 .section3{
-    background-color: #fafafa;
+    background-color: #fffbf2;
 }
 .section3 .container{
     padding-top: 20px;
+}
+.sct3-title h1{
+    font-size: 36px;
 }
 
 /* Styling footer section */
