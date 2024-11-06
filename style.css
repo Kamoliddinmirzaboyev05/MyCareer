@@ -6,13 +6,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter';
+    transition: all .3s ease;
 }
 body{
-    background-color: #fff8e9;
+    background-color: #fafafa;
 
 }
 .container{
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 h1{
@@ -150,7 +151,7 @@ ul{
 
 /* Styling section 1 */
 .section1{
-    background-color: #fff8e9;
+    background-color: #fafafa;
 }
 .titles{
     display: flex;
@@ -252,7 +253,7 @@ ul{
     background-color: #FBF6EA;
 }
 .section2{
-    background-color: #fff8e9;
+    background-color: #fafafa;
 }
 .section2-title{
     font-size: 36px;
@@ -302,7 +303,7 @@ ul{
     align-items: center;
     justify-content: center;
     height: 48px;
-    border: solid black 1px;
+    border: solid rgb(213, 213, 213) 1px;
     background-color: #fbf6ea;
     border-radius: 5px;
 }
@@ -325,15 +326,110 @@ ul{
 /* Styling section 3 */
 
 .section3{
-    background-color: #fffbf2;
+    background-color: #fafafa;
 }
 .section3 .container{
     padding-top: 20px;
+    position: relative;
+    padding-bottom: 100px;
 }
 .sct3-title h1{
     font-size: 36px;
+    padding-bottom: 50px;
 }
+.sct3-block{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.vcard{
+    width: 580px;
+    border: 1px solid #6D6E76;
+    border-radius: 16px;
+    padding: 20px;
+    position: relative;
+}
+.vcard:hover{
+    border: 1px solid #34B424;
+}
+.card-text{
+    display: flex;
+    justify-content: space-between;
+}
+.case{
+    background-color: #E5F0F6;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    color: #23b2ff;
+}
+.vcard h2{
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.vcard p{
+    padding-bottom: 5px;
 
+}
+.demands{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.demand{
+    background-color: #e1e1e1;
+    border-radius: 16px;
+    padding: 5px 15px;
+}
+.demand p{
+    font-size: 14px;
+    padding: 0;
+}
+.vcard:hover .right{
+    opacity: 1;
+    transform: translateX(0);
+}
+.right{
+    position: absolute;
+    bottom: -12px;
+    right: -180px;
+    font-size: 26px;
+    opacity: 0;
+    transform: translateX(-30px);
+}
+.right i{
+    color: #34B424;
+}
+.more{
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #ffd050;
+    border: none;
+    position: absolute;
+    right: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    bottom: 30px;
+}
+.more i{
+    opacity: 0;
+    transform: translateX(-20px);
+}
+.more:hover i{
+    opacity: 1;
+    transform: translateX(10px);
+}
 /* Styling footer section */
 
 footer{
@@ -361,8 +457,11 @@ footer{
     font-weight: 700;
     line-height: 48px;
 }
+form{
+    display: flex;
+}
 .footer-hero input{
-    padding: 20px 110px 20px 20px;
+    padding: 20px 20px 20px 20px;
     background-color: #2e3040;
     border: #6D6E76 solid 1px;
 }
