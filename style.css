@@ -37,6 +37,9 @@ nav .container{
     align-items: center;
     gap: 50px;
 }
+.navbar-nav a{
+    text-decoration: none;
+}
  .login{
     padding: 5px 10px;
     font-size: 18px;
