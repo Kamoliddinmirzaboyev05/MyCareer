@@ -39,10 +39,11 @@ header::before {
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     text-align: center;
 }
-.register{
+
+.link{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -83,11 +84,6 @@ header::before {
 input:focus{
     outline: none;
 }
-.remember{
-    display: flex;
-    padding: 0px 5px;
-    justify-content: space-between;
-}
 .login-btn{
     padding-top: 60px;
     display: flex;
@@ -101,24 +97,4 @@ input:focus{
     font-weight: 700;
     background-color: #FFD050;
     border: none;
-}
-.remember-me{
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
-.remember-me input{
-    width: 20px;
-    height: 20px;
-}
-.continue{
-    padding-top: 30px;
-    text-align: center;
-}
-.network{   
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
