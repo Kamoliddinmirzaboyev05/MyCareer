@@ -1,11 +1,12 @@
 <svg width="350" height="65" xmlns="http://www.w3.org/2000/svg">
     <text x="00" y="45" font-family="Roboto" font-size="60" fill="#fafafa" font-weight="bold">{</text>
-    <text x="30" y="50" font-family="Roboto" font-size="60" fill="#fafafa" font-weight="bold">M</text>
-    <text x="90" y="50" font-family="Roboto" font-size="60" fill="#fafafa" font-weight="bold">y</text>
-    <text x="120" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">C</text>
-    <text x="165" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">a</text>
-    <text x="195" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">r</text>
-    <text x="225" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">e</text>
-    <text x="255" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">e</text>
-    <text x="285" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">r</text>
+    <text x="30" y="50" font-family="Roboto" font-size="60" fill="#fafafa" font-weight="bold">S</text>
+    <text x="90" y="50" font-family="Roboto" font-size="60" fill="#fafafa" font-weight="bold">a</text>
+    <text x="120" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">r</text>
+    <text x="165" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">d</text>
+    <text x="195" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">o</text>
+    <text x="225" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">r</text>
+    <text x="255" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">b</text>
+    <text x="285" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">e</text>
+    <text x="315" y="50" font-family="Roboto" font-size="60" fill="#607D8B" font-weight="bold">k</text>
 </svg>
