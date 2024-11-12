@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter';
-    transition: all .3s ease;
+    transition: all .5s ease;
 }
 body{
     background-color: #fafafa;
@@ -449,42 +449,28 @@ footer{
     align-items: center;
     padding: 30px;
 }
-.footer-hero{
-    display: flex;    
-    align-items: start;
-    gap: 100px;
-    padding: 60px;
-    background-color: #2e3040;
-    justify-content: center;
-}
-.footer-hero h1{
-    color: #fff;
-    width: 600px;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 48px;
-}
-form{
+.footer-links{
     display: flex;
+    justify-content: space-around;
+    color: #c7c7c7;
 }
-.footer-hero input{
-    padding: 20px 20px 20px 20px;
-    background-color: #2e3040;
-    border: #6D6E76 solid 1px;
+.footer-links p{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
 }
-.footer-hero input::placeholder{
-    color: #6D6E76;
+.col p:hover{
+    text-decoration: underline;
+}
+.col h2{
     font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
+    font-weight: 600;
+    padding-bottom: 15px;
 }
-.footer-hero button{
-    padding: 16px 48px;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-    background-color: #FFD050;
-    margin-left: 30px;
+.col h2:hover{
+    color: #ffd050;
+    cursor: pointer;
 }
 .footer-foot{
     display: flex;
@@ -502,9 +488,26 @@ form{
 .adress p{
     margin-bottom: 10px;
 }
-.socials{
+.footer-links a{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+.social{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 20px;
+    padding-bottom: 10px;
+}
+.social:hover{
+    color: #FFD050  ;
+}
+.social:hover i{
+   transform: scale(1.2);
+}
+.social p{
+    padding: 0;
+    font-size: 16px;
+}
+.social p:hover{
+    text-decoration: none;
 }
