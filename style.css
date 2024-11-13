@@ -567,6 +567,8 @@ footer{
  }
  .hero{
     background-image: url('img/hunters-race-MYbhN8KaaEc-unsplash.jpg');
+    background-size: 100%;
+    background-position: center;
     padding: 80px 20px 180px;
     padding-bottom: 50px;
  }
@@ -595,6 +597,11 @@ footer{
     animation-timing-function: ease;
 }
 .read-more1 p{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Sen';
+}
+.read-more1 h2{
     font-size: 12px;
     font-weight: 700;
     font-family: 'Sen';
