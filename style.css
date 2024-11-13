@@ -67,15 +67,14 @@ nav .container{
 .login h2{
     font-size: 16px;
 }
-
+.menu{
+    display: none;
+}
 .user i{
     font-size: 24px;
 }
 .login:hover{
     background-color: #FFD050;
-}
-.logo h1{
-    color: white;
 }
 ul{
     list-style: none;
@@ -552,4 +551,19 @@ footer{
 .data p{
     padding: 0;
     margin: 0;
+}
+
+
+@media (max-width: 480px){
+ .logo img{
+    width: 130px;
+ }
+ .navbar-nav{
+    display: none;
+ }
+ .menu{
+    display: block;
+    color: white;
+    font-size: 24px;
+ }
 }
