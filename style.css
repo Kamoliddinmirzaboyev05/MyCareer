@@ -372,6 +372,10 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+.btn{
+    width: 100%;
+    padding-top: 20px;
+}
 .case{
     background-color: #E5F0F6;
     padding: 5px;
@@ -675,6 +679,36 @@ footer{
 }
 .sct-title{
     text-align: center;
+    font-size: 36px;
+}
+.sct3-title{
+    font-size: 36px;
+    text-align: center;
+}
+.sct3-block{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+.about-text{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+.footer-nav{
+    flex-direction: column;
+}
+.footer-links{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.col{
+    padding-bottom: 30px;
+}
 }
