@@ -606,6 +606,10 @@ footer{
     font-weight: 700;
     font-family: 'Sen';
 }
+.section1{
+    overflow: hidden;
+
+}
 .titles{
     display: flex;
     justify-content: center;
@@ -666,7 +670,9 @@ footer{
 .read-more2 h2{
     font-size: 12px;
 }
-
+.all-post{
+    width: 100%;
+}
 
 
 }
