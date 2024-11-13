@@ -618,8 +618,8 @@ footer{
 .left{
     margin: 0;
 }
-.left h1{
-    font-size: 20px;
+.left{
+    font-size: 24px;
     text-align: center;
 }
 .right{
@@ -629,7 +629,13 @@ footer{
     width: 100%;
 }
 .post-theme{
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.post-about{
+    text-align: center;
+    margin-bottom: 10px;
 }
 .block{
     flex-direction: column;
@@ -637,6 +643,17 @@ footer{
 }
 .post-text{
     width: 100%;
+}
+.post-about2{
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 500; 
+    color: #6D6E76;
+    width: 100%;
+    text-align: center;
+}
+.read-more2{
+    padding: 10px 20px;
 }
 
 }
