@@ -606,4 +606,37 @@ footer{
     font-weight: 700;
     font-family: 'Sen';
 }
+.titles{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.left{
+    margin: 0;
+}
+.left h1{
+    font-size: 20px;
+    text-align: center;
+}
+.right{
+    display: none;
+}
+.featuerd-post{
+    width: 100%;
+}
+.post-theme{
+    font-size: 12px;
+}
+.block{
+    flex-direction: column;
+    align-items: center;
+}
+.post-text{
+    width: 100%;
+}
+
 }
