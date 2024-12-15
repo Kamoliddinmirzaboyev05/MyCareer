@@ -63,7 +63,7 @@ nav .container{
 .logo h1{
     color: white;
 }
-ul{
+nav ul{
     list-style: none;
 }
 .links{
@@ -82,124 +82,57 @@ ul{
 .links a:hover{
     color: #FFD050;
 }
-.hero{
-    padding-top: 50px;
+/* Styling main section */
+
+.developer{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.hero h1{
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 50px;
-    color: #607D8B;
-    padding-bottom: 10px;
-}
-.hero p{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 22px;
-    padding-bottom: 30px;
-}
-.hero button{
+.contact{
     padding: 10px 30px;
-    border-radius: 16px;
-    background-color: #FFD050;
-    color: white;
+    background-color: #ffd050;
+    color: black;
     border: none;
-    font-size: 18px;
-    margin-bottom: 50px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
-.hero h2{
-    color: #607D8B;
-    padding: 15px;
-    border: 1px solid #D9D9D9;
-    border-radius: 10px;
-    margin-bottom: 50px;
-    font-weight: 500;
-}
-.block{
+.dev{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-bottom: 80px;
-}
-.box{
-    position: relative;
-    border: 1px solid #D9D9D9;
-    width: 250px;
-    padding: 40px 30px 20px;
-    display: flex;
-    border-radius: 20px;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
-.box-img{
-    border-radius: 50%;    
+.dev-img{
+    width: 300px;
+    border-radius: 16px;
     overflow: hidden;
-    background-image: url('https://www.upwork.com/profile-portraits/c1-v1ZeKh47Tz_chYjohaeAiOdfYV6DwBT1MPZFVpRqfT67Fm_rT-CKIyDZgQd50ne');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 15px;
 }
-.box-img img{
+.dev-img img{
     width: 100%;
 }
-.price{
-    position: absolute;
-    top: 20px;
-    right: 10px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #676767;
-    text-align: right;
-    padding-left: 80px;
-    padding-bottom: 10px;
+.bio{
+    width: 600px;
 }
-.box h2{
-    color: #181818;
-    font-size: 24px;
-    font-weight: 400;
+.hr{
+    height: 2px;
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 50px;
 }
-.box .job{
-    color: #181818;
-    font-size: 14px;
-    font-weight: 300;
-    padding-bottom: 10px;
-}
-.stars{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 10px;
-}
-.stars i{
-    color: #FFD050;
-}
-.stars p{
-    color: #676767;
-}
-.learnt{
+.block{
+    padding-bottom: 50px;   
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 5px;
-    padding-bottom: 20px;
+    gap: 50px;
 }
-.know{
-    background-color: #E9E9E9;
-    border-radius: 20px;
-    padding: 10px;
-    font-size: 12px;
-    color: #676767;
-}
-.more{
-    padding: 10px 30px;
-    color: white;
-    font-weight: 500;   
-    border-radius: 20px;
-    background-color: #FFD050;
-    border: none;
+.box{
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 16px;
+    padding: 30px;
 }
 /* Styling footer section */
 

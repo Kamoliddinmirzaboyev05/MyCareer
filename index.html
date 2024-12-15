@@ -14,6 +14,41 @@
   </head>
   <body>
     <header id="home">
+      <div class="back-div" id="backDiv">
+        <div class="modal">
+          <div class="close" id="close"><i class="fa-solid fa-xmark"></i></div>
+          <div class="modal-title">
+            <h1>Kirish</h1>
+          </div>
+          <p class="register">
+            Agar sizda hisob qaydnomangiz bo'lmasa, ro'yxatdan o'ting. Bu yerda
+            ro'yxatdan o'tishingiz mumkin!
+            <a href="/RegisterPage/register.html">Ro'yxatdan o'tish</a>
+          </p>
+          <form action="#">
+            <div class="login-input">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Loginni kiriting..." />
+            </div>
+            <div class="pass-input">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" id="pass" placeholder="Parolni kiriting..." />
+              <i class="fa-regular fa-eye-slash" id="noVis"></i>
+              <i class="fa-regular fa-eye" id="vis"></i>
+            </div>
+            <button class="login-btn">Kirish</button>
+          </form>
+          <div class="continue-title">
+            <h4>yoki orqali davom eting</h4>
+          </div>
+          <div class="continue-with">
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-apple"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
       <nav>
         <div class="container">
           <div class="logo" data-aos="fade-right" data-aos-duration="2000">
@@ -27,12 +62,17 @@
               <li><a href="#jobs">Ish o'rinlari</a></li>
               <li><a href="#about">Biz haqimizda</a></li>
             </ul>
-            <a href="LoginPage/login.html"
-              ><div class="login" data-aos="fade-left" data-aos-duration="2000">
+            <a
+              ><div
+                class="login"
+                id="loginBtn"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
                 <div class="user">
                   <i class="fa-regular fa-circle-user"></i>
                 </div>
-                <h2>Tizimga Kirish</h2>
+                <h2>Kirish</h2>
               </div></a
             >
           </div>
@@ -527,6 +567,7 @@
     </footer>
   </body>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/script.js"></script>
   <script>
     AOS.init();
   </script>
