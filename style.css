@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  user-select: none;
   font-family: "Inter";
   transition: all 0.5s ease;
 }
@@ -26,17 +27,16 @@ body {
 
 }
 .back-div {
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   height: 100vh;
-  top: 0;
+  top: -1000px;
   left: 0;
   right: 0;
   bottom: 0;
+  opacity: 1;
   background-color: rgba(0, 0, 0, 0.55);
-  display: none;
   transition: all .5s ease;
-  user-select: none;
 }
 .modal {
   position: fixed;
@@ -44,7 +44,8 @@ body {
   height: 500px;
   width: 400px;
   background-color: #fafafa;
-  top: 50%;
+  top: -1000px;
+  opacity: 1;
   left: 50%;
   overflow: auto;
   transform: translate(-50%, -50%);
@@ -54,6 +55,7 @@ body {
   display: flex;
   align-items: start;
   flex-direction: column;
+  transition: all .4s ease;
   border: 4px solid #212222;
 }
 .login-input, .pass-input{
@@ -110,6 +112,9 @@ body {
   border-radius: 8px;
   background-color: #23b2ff;
   border: none;
+}
+.readMore{
+  text-decoration: none;
 }
 .continue-with{
   display: flex;
@@ -268,6 +273,12 @@ ul {
   animation-name: hero-title;
   animation-duration: 4s;
   animation-timing-function: ease;
+}
+.read-more1:hover{
+  background-color: #FFD04A;
+  color: white;
+  box-shadow: 0px 0px 10px 4px #FFD04A;
+  
 }
 .read-more1 p {
   font-size: 18px;

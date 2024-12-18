@@ -28,7 +28,7 @@
           <form action="#">
             <div class="login-input">
               <i class="fa-solid fa-user"></i>
-              <input type="text" placeholder="Loginni kiriting..." />
+              <input type="text" id="loginInput" placeholder="Loginni kiriting..." />
             </div>
             <div class="pass-input">
               <i class="fa-solid fa-lock"></i>
@@ -36,7 +36,7 @@
               <i class="fa-regular fa-eye-slash" id="noVis"></i>
               <i class="fa-regular fa-eye" id="vis"></i>
             </div>
-            <button class="login-btn">Kirish</button>
+            <button class="login-btn" id="login">Kirish</button>
           </form>
           <div class="continue-title">
             <h4>yoki orqali davom eting</h4>
@@ -93,10 +93,10 @@
             "Freelanserlar uchun o‘z qobiliyatlarini namoyish qilish,
             kompaniyalar uchun esa eng yaxshi iste’dodni topish imkoniyati!"
           </p>
-          <button class="read-more1">
+          <a href="#aboutWe" class="readMore"><button class="read-more1">
             <p>Read More</p>
             <h2>></h2>
-          </button>
+          </button></a>
         </div>
       </div>
     </header>
@@ -430,7 +430,7 @@
       </section>
       <section class="section4">
         <div class="container">
-          <h1 class="sct-title">Biz haqimizda</h1>
+          <h1 class="sct-title" id="aboutWe">Biz haqimizda</h1>
           <div class="about">
             <div class="about-text">
               <p>
